@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohamed Saleh">
+    <meta name="publisher" content="Mohamed Saleh">
+    <meta name="copyright" content="Mohamed Saleh">
+    <meta name="page-topic" content="Media">
+    <meta name="page-type" content="Blogging">
+    <meta name="audience" content="Everyone">
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+    <!-- BootStrap CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+</head>
+
+<body class="bg-black overflow-hidden">
+
+    <!-- start loading -->
+    <div class="loadingScreen bg-black position-fixed top-0 start-0 end-0 bottom-0">
+        <div class="d-flex justify-content-center align-items-center h-100 w-100">
+            <span class="loader"></span>
+        </div>
+    </div>
+    <!-- end loading -->
+
+    <!-- start header & navbar -->
+    <header class="d-flex flex-column justify-content-between align-items-center position-fixed vh-100 top-0">
+        <nav class="d-flex h-100 justify-content-between align-items-center">
+            <div class="sideIcons h-100">
+                <div class="mobileBtn">
+                    <button
+                        class="border-0 bg-opacity-50 bg-light fs-3 text-black menuBtn d-block d-lg-none px-4 py-2 rounded-3 align-self-start m-4 text-center">
+                        <i class="fa-solid fa-bars menuIcon"></i>
+                    </button>
+                </div>
+
+                <div
+                    class="navIcons h-100 d-none d-lg-flex flex-lg-column justify-content-lg-between align-items-lg-center py-4 text-black shadow-lg">
+                    <a class="navbar-brand d-block text-center" href="index.html">
+                        <img src="img/favicon.png" alt="Yummy Website Logo" class="w-100 px-2" />
+                    </a>
+                    <button class="border-0 bg-transparent fs-3 text-black p-2 menuBtn">
+                        <i class="fa-solid fa-bars menuIcon"></i>
+                    </button>
+                    <div class="socialIcons d-flex flex-column row-gap-1 fs-5">
+                        <i class="fa-solid fa-globe p-2">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fa-solid fa-share-nodes p-2">
+                            <a href="#"></a>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="navMenu h-100 order-first d-flex flex-column justify-content-between align-items-center bg-black text-light p-4">
+                <ul class="navbar-nav me-auto mb-2 overflow-hidden">
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fw-semibold" href="index.html" id>Home</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fw-semibold" href="#search" id>Search</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fw-semibold" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fw-semibold" href="#area">Area</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fw-semibold" href="#ingradients">Ingradients</a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <a class="nav-link fw-semibold" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="nav-footer text-center">
+                    <div class="socialIcons d-flex gap-1 fs-5 mb-2 justify-content-center">
+                        <i class="fa-brands fa-facebook p-2">
+                            <a href="#"></a>
+                        </i>
+
+                        <i class="fa-brands fa-twitter p-2">
+                            <a href="#"></a>
+                        </i>
+
+                        <i class="fa-solid fa-globe p-2 p-2">
+                            <a href="#"></a>
+                        </i>
+                    </div>
+                    <p class="fw-medium">Copyright Saleh© 2024 All Rights Reserved.</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header & navbar -->
+
+    <!-- start search section -->
+    <section class="searchSec position-relative" id="search">
+        <div class="container searchForm"></div>
+    </section>
+    <!-- end search section -->
+    .
+
+    <!-- start sign up form -->
+    <section class="signUpSec" id="signUp">
+        <div class="container">
+            <div class="signUpForm"></div>
+        </div>
+    </section>
+    <!-- end  sign up form -->
+
+    <!-- start main section -->
+    <main id="mealsMain" class="text-light">
+        <div class="container">
+            <section class="mealSec">
+                <div class="row mealsContainer g-4"></div>
+            </section>
+        </div>
+    </main>
+    <!-- end main section -->
+
+
+    <!-- jQuery File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Sweet alert file -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Bootstrap File -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Mainjs File -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
